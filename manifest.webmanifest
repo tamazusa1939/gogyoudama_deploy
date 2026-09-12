@@ -3,13 +3,19 @@
     "short_name": "GoggyousatsuOnline",
     "start_url": "index.html",
     "display": "fullscreen",
+    "orientation": "landscape",
     "background_color": "#231F20",
     "theme_color": "#000",
     "description": "",
     "icons": [{
-      "src": "TemplateData/icons/unity-logo-dark.png",
-      "sizes": "144x144",
+      "src": "TemplateData/icons/lunula-192.png",
+      "sizes": "192x192",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "any"
+    }, {
+      "src": "TemplateData/icons/lunula-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
     }]
   }
