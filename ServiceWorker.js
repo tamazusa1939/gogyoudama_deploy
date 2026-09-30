@@ -1,9 +1,9 @@
-const cacheName = "tzmazusa-GoggyousatsuOnline-1.1.6";
+const cacheName = "tzmazusa-GoggyousatsuOnline-1.1.7";
 const contentToCache = [
-    "https://storage.googleapis.com/gogyoudama/Build/d52216914efdec5a4ab01a462f9bc514.loader.js",
-    "https://storage.googleapis.com/gogyoudama/Build/eed033890c2bdc9bfc5919cf006d15dc.framework.js.unityweb",
-    "https://storage.googleapis.com/gogyoudama/Build/9f15b3b1829be8f74ec365808d5b2276.data.unityweb",
-    "https://storage.googleapis.com/gogyoudama/Build/324f84cddf9307b6b90b7b28f4aee904.wasm.unityweb",
+    "https://storage.googleapis.com/gogyoudama/Build/9d2c11d802b56810a4d964005e8bc50c.loader.js",
+    "https://storage.googleapis.com/gogyoudama/Build/f05899c7385b76e53a3a8d213df0b3a8.framework.js.unityweb",
+    "https://storage.googleapis.com/gogyoudama/Build/cd1b0cc709f15c822c1091e7d638d774.data.unityweb",
+    "https://storage.googleapis.com/gogyoudama/Build/1a9562158f7275936dff0627c18d1728.wasm.unityweb",
     "TemplateData/style.css"
 
 ];
