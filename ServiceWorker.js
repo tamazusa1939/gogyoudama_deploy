@@ -1,9 +1,11 @@
-const cacheName = "tzmazusa-GoggyousatsuOnline-1.1.9";
+// キャッシュ名にビルド成果物のファイル名（Name Files As Hashesでビルドごとにハッシュが変わる）を含める。
+// Versionだけだと、Versionを据え置いて再デプロイしたとき既存端末で旧index.htmlが返り続けて更新されないため
+const cacheName = "tzmazusa-GoggyousatsuOnline-1.1.9-b555c4f1bf4644c26659fe0c32107424.wasm.unityweb-30fd17cadd6ea850c4f61f6f43c4e89d.data.unityweb";
 const contentToCache = [
-    "https://storage.googleapis.com/gogyoudama/Build/55abe58bb118ecf84e18f89d9ffa33e8.loader.js",
+    "https://storage.googleapis.com/gogyoudama/Build/074463a8f77f4db1cadd72f4c04968fd.loader.js",
     "https://storage.googleapis.com/gogyoudama/Build/f05899c7385b76e53a3a8d213df0b3a8.framework.js.unityweb",
-    "https://storage.googleapis.com/gogyoudama/Build/4fdd622d895a97ed379f185d5d2fdf3a.data.unityweb",
-    "https://storage.googleapis.com/gogyoudama/Build/5ea024787a986798b2d8ea3970be3982.wasm.unityweb",
+    "https://storage.googleapis.com/gogyoudama/Build/30fd17cadd6ea850c4f61f6f43c4e89d.data.unityweb",
+    "https://storage.googleapis.com/gogyoudama/Build/b555c4f1bf4644c26659fe0c32107424.wasm.unityweb",
     "TemplateData/style.css"
 
 ];
